@@ -62,10 +62,10 @@ public class steps {
 		   Assert.assertEquals(expected, string);
 		   driver.findElement(By.id("welcome")).click();
 		   Thread.sleep(3000);
-		   driver.findElement(By.xpath("//*[@id='welcome-menu']/ul/li[3]/a")).click();
+		   driver.findElement(By.xpath("//*[@id='welcome-menu']/ul/li[2]/a")).click();
 		   Thread.sleep(3000);
 		   
-	  
+		 
 	}
 	
 	@Then("I should see a Error meassage as {string}")
