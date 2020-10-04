@@ -1,0 +1,405 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5306414000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am able to naviagte to Homepage",
+            "match": {
+              "location": "stepDefinition.steps.i_am_able_to_naviagte_to_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-04T18:45:59.028Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6757879200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.steps.beforetest()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Register User",
+        "description": "",
+        "id": "register-features;register-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 80295300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.steps.aftertest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3380835400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Sign up",
+            "match": {
+              "location": "stepDefinition.steps.i_click_on_sign_up()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25646200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Registration Screen Opens",
+            "match": {
+              "location": "stepDefinition.steps.registration_screen_opens()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 82312900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Select what do you want to do",
+            "match": {
+              "location": "stepDefinition.steps.i_select_what_do_you_want_to_do()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1129472300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Enter First Name \"Niha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Niha\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.steps.i_enter_first_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1144818700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Enter Last Name \"Raj\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Raj\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinition.steps.i_enter_last_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1165465500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Enter e-mail \"niharaj@xyz.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"niharaj@xyz.com\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinition.steps.i_enter_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1146379800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I Enter Username \"niharaj\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"niharaj\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinition.steps.i_enter_username(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1171001700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Enter Pass \"Welcome123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome123\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.steps.i_enter_pass(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1129917800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I Enter Confirm Password \"Welcome123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome123\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinition.steps.i_enter_confirm_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4865729900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I Click Register",
+            "match": {
+              "location": "stepDefinition.steps.i_click_register()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62433000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see \"Dear Niha Raj,\n\nYour personal settings have been registered.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dear Niha Raj,\n\nYour personal settings have been registered.\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.steps.i_should_see(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3091944600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on profile",
+            "match": {
+              "location": "stepDefinition.steps.i_click_on_profile()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 62454700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I Validate e-mail \"niharaj@xyz.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"niharaj@xyz.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinition.steps.i_validate_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4384031600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I navigate to homepage",
+            "match": {
+              "location": "stepDefinition.steps.i_navigate_to_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5145058000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on compose",
+            "match": {
+              "location": "stepDefinition.steps.i_click_on_compose()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31188600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see compose message",
+            "match": {
+              "location": "stepDefinition.steps.i_should_see_compose_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4395860500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter toemail \"pk123@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pk123@gmail.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinition.steps.i_enter_toemail(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1144823000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter subject \"Testmail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testmail\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinition.steps.i_enter_subject(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1141439500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter content \"Hi, /n This is for Testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hi, /n This is for Testing\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinition.steps.i_enter_content(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3929155000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on send",
+            "match": {
+              "location": "stepDefinition.steps.i_click_on_send()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2070049000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I should see The message has been sent \"The message has been sent to Pavan Kumar (pavankumar)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The message has been sent to Pavan Kumar (pavankumar)\"",
+                  "offset": 39
+                }
+              ],
+              "location": "stepDefinition.steps.i_should_see_the_message_has_been_sent(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Register Features",
+    "description": "  I want to use this template for my feature file",
+    "id": "register-features",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Register/register.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

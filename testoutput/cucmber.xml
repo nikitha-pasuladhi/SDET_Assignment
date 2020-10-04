@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="53.307">
+    <testcase classname="Register Features" name="Register User" time="52.943">
+        <system-out><![CDATA[Given I am able to naviagte to Homepage.....................................passed
+When I click on Sign up.....................................................passed
+Then Registration Screen Opens..............................................passed
+Then I Select what do you want to do........................................passed
+And I Enter First Name "Niha"...............................................passed
+And I Enter Last Name "Raj".................................................passed
+And I Enter e-mail "niharaj@xyz.com"........................................passed
+And I Enter Username "niharaj"..............................................passed
+And I Enter Pass "Welcome123"...............................................passed
+And I Enter Confirm Password "Welcome123"...................................passed
+And I Click Register........................................................passed
+Then I should see "Dear Niha Raj,
+
+Your personal settings have been registered.".passed
+Then I click on profile.....................................................passed
+And I Validate e-mail "niharaj@xyz.com".....................................passed
+Then I navigate to homepage.................................................passed
+Then I click on compose.....................................................passed
+Then I should see compose message...........................................passed
+Then I enter toemail "pk123@gmail.com"......................................passed
+Then I enter subject "Testmail".............................................passed
+Then I enter content "Hi, /n This is for Testing"...........................passed
+Then I click on send........................................................passed
+Then I should see The message has been sent "The message has been sent to Pavan Kumar (pavankumar)".passed
+]]></system-out>
+    </testcase>
+</testsuite>
